@@ -2,7 +2,7 @@
 set -e
 OUTPUT_DIR=$(git rev-parse --show-toplevel)/docs
 PROJECT=SomeLibrary
-HOSTING_BASE_PATH=pages/dsung42-bugs/docc-convenience-init
+HOSTING_BASE_PATH=docc-convenience-init/
 
 old_branch=$(git branch --show-current)
 
